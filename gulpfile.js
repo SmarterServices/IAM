@@ -29,7 +29,7 @@ gulp.task('lint', function() {
 });
 
 
-gulp.task('tests', function (cb) {
+gulp.task('test', function (cb) {
     log('Running Tests')
     gulp.src('lib/*.js')
         .pipe(istanbul()) // Covering files
