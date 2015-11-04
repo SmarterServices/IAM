@@ -1,0 +1,6 @@
+{
+  "Test": [
+    {"Resource" : "ssrn:ss:iam:::account/100/assestmentgroup/2/customquestions", "Action": "CanUpdate", "Result": "false"},
+    {"Resource" : "ssrn:ss:iam:::account/100/assestmentgroup/2/customquestions", "Action": "CanRead", "Result": "true"}
+  ]
+}

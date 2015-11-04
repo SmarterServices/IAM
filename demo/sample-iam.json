@@ -1,0 +1,23 @@
+{
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["CanRead"],
+      "Resource": [
+        "ssrn:ss:iam:::account/100/assestmentgroup/*/customquestions"
+      ]
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["CanUpdate","CanDelete","CanCreate"],
+      "Resource": "ssrn:ss:iam:::account/100/assestmentgroup/1/customquestions"
+    },
+    {
+      "Effect": "Deny",
+      "Action": ["CanUpdate"],
+      "Resource": [
+        "ssrn:ss:iam:::account/100/assestmentgroup/2/customquestions"
+      ]
+    }
+  ]
+}
