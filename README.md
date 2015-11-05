@@ -36,13 +36,13 @@ Policies are documents that are created using JSON. A policy consists of one or 
       "Effect": "Allow",
       "Action": ["Read"],
       "Resource": [
-        "ssrn:ss:iam::100:assestmentgroup/*/customquestions"
+        "ssrn:ss:iam::100:assessmentgroup/*/customquestions"
       ]
     },
     {
       "Effect": "Allow",
       "Action": ["Update","Delete","Create"],
-      "Resource": "ssrn:ss:iam::100:assestmentgroup/1/customquestions"
+      "Resource": "ssrn:ss:iam::100:assessmentgroup/1/customquestions"
     }
   ]
 }
