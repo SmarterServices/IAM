@@ -1,6 +1,6 @@
 {
   "name": "iam",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "lib/spec.js",
   "scripts": {
