@@ -1,12 +1,13 @@
 # Identity and Access Management (IAM) 
 
-This project closely resembles the AWS IAM service, but is open sourced for the community to buid upon.  IAM enables your to control access to your application level resources in a very granular manner.  
+This project closely resembles the AWS IAM service, but is open sourced for the community to build upon.  IAM enables your to control access to your
+application level resources in a very granular manner.
 Identity and Access Management (IAM) is a service that helps securely control access to resources for users. IAM is used to control who can use which resources in a very granular fashion.
   
   
 # IAM ARNs
   
-Following AWS IAM ARNs(Amazon Resource Naming Format) we can sue something like ssrn(Smarter Services Resource Naming)
+Following AWS IAM ARNs(Amazon Resource Naming Format) we can use something like ssrn (SmarterServices Resource Naming)
   
   ssrn:product:service:region:account:resource
   
@@ -17,6 +18,7 @@ Following AWS IAM ARNs(Amazon Resource Naming Format) we can sue something like 
   * account is the account ID with no hyphens (for example, 123456789012).
   * resource is the portion that identifies the specific resource by name.
   
+The ARN format can really be anything you would like as long as the policies match up.
 
 # Policy Structure
 
