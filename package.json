@@ -2,7 +2,7 @@
   "name": "iam",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/spec.js",
   "scripts": {
     "test": "gulp test;"
   },
