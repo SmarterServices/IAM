@@ -1,5 +1,5 @@
 {
-  "name": "iam",
+  "name": "open-iam",
   "version": "0.0.6",
   "description": "",
   "main": "lib/spec.js",
