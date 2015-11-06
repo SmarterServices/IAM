@@ -54,7 +54,6 @@ Policies are documents that are created using JSON. A policy consists of one or 
 
 This policy statements allow an user with id 100 to read custom questions for any assetment group. However the user can only  perform Update, Delete and Create on assessmentgroup 1.
 
-
 # Determining Whether a Request is Allowed or Denied
   
   When a request is made, the IAM service decides whether a given request should be allowed or denied. The evaluation logic follows these rules:

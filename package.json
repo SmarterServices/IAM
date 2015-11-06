@@ -2,7 +2,7 @@
   "name": "open-iam",
   "version": "0.0.6",
   "description": "",
-  "main": "lib/spec.js",
+  "main": "lib/iam.js",
   "scripts": {
     "test": "gulp test;"
   },
@@ -16,7 +16,9 @@
     "url": "https://github.com/SmarterServices/iam/issues"
   },
   "homepage": "https://github.com/SmarterServices/iam#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
   "devDependencies": {
     "chai": "^3.4.0",
     "gulp": "^3.9.0",
@@ -26,7 +28,6 @@
     "gulp-task-listing": "^1.0.1",
     "gulp-util": "^3.0.7",
     "jsonfile": "^2.2.3",
-    "lodash": "^3.10.1",
     "mocha": "^2.3.3"
   }
 }
