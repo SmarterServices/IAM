@@ -7,7 +7,8 @@ var sampleIam = {
             "Effect": "Allow",
             "Action": ["sm:*"],
             "Resource": [
-                "ssrn:ss:sm::200:integration/9999"
+                "ssrn:ss:sm::200:integration/9999",
+                "ssrn:ss:sm::100:assessment/500"
             ]
         },
         {
@@ -20,7 +21,7 @@ var sampleIam = {
     ]
 };
 
-console.log(JSON.stringify(iam.getActionCriteria('sm:ViewUsers', iam.processIamData(sampleIam))));
+console.log(JSON.stringify(iam.getActionCriteria('sm:SearchResults', iam.processIamData(sampleIam))));
 
 
 /*
