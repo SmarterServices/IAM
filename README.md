@@ -1,6 +1,7 @@
 # Identity and Access Management (IAM) 
 
 [![Coverage Status](https://coveralls.io/repos/SmarterServices/IAM/badge.svg?branch=master&service=github)](https://coveralls.io/github/SmarterServices/IAM?branch=master)
+[ ![Codeship Status for SmarterServices/IAM](https://codeship.com/projects/ec18af80-73fe-0133-025b-0aacfdaf2c87/status?branch=master)](https://codeship.com/projects/117455)
 
 This project closely resembles the AWS IAM service, but is open sourced for the community to build upon.  IAM enables your to control access to your
 application level resources in a very granular manner.
