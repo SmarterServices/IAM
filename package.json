@@ -4,7 +4,8 @@
   "description": "",
   "main": "lib/iam.js",
   "scripts": {
-    "test": "gulp test;"
+    "test": "gulp test;",
+    "coveralls": "npm run-script test && node ./node_modules/coveralls/bin/coveralls.js < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
   },
   "devDependencies": {
     "chai": "^3.4.0",
+    "coveralls": "^2.11.4",
     "gulp": "^3.9.0",
+    "gulp-coveralls": "^0.1.4",
     "gulp-istanbul": "^0.10.2",
     "gulp-jshint": "^1.12.0",
     "gulp-mocha": "^2.1.3",

@@ -1,5 +1,7 @@
 # Identity and Access Management (IAM) 
 
+[![Coverage Status](https://coveralls.io/repos/SmarterServices/IAM/badge.svg?branch=master&service=github)](https://coveralls.io/github/SmarterServices/IAM?branch=master)
+
 This project closely resembles the AWS IAM service, but is open sourced for the community to build upon.  IAM enables your to control access to your
 application level resources in a very granular manner.
 Identity and Access Management (IAM) is a service that helps securely control access to resources for users. IAM is used to control who can use which resources in a very granular fashion.

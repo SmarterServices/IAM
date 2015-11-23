@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     istanbul = require('gulp-istanbul'),
     util = require('gulp-util'),
     taskListing = require('gulp-task-listing'),
-    jshint = require('gulp-jshint');
+    jshint = require('gulp-jshint'),
+    coveralls = require('gulp-coveralls');
 
 
 var paths = {
@@ -40,7 +41,8 @@ gulp.task('test', function (cb) {
                 .pipe(mocha({reporter: 'spec', timeout: 5000}))
                 .pipe(istanbul.writeReports()) // Creating the reports after tests run
                 .on('end', function () {
-                    process.exit();
+
+                    //process.exit();
                 });
         });
 });
